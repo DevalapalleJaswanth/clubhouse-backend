@@ -10,7 +10,7 @@ exports. getAllUsers=(req,res)=>{
       res.status(200).send(result);
   })
   .catch(err=>{
-      res.status(400).send(`Thers is an error in the server while loading users data: ${err}` );
+      res.status(400).send(`There is an error in the server while loading users data: ${err}` );
   })
 }
 

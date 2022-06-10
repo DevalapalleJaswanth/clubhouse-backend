@@ -5,6 +5,7 @@ const Schema=mongoose.Schema;
 const roomSchema=new Schema(
   {
     name:{type: String, required:true},
+    creator:{type: String, required:true},
     creatorID:{type: String, required:true},
     members:{type: Array, required:false},
     chatMessages:{type: Array, required:false}
